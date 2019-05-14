@@ -11,21 +11,25 @@
 
   <style>
     * { margin: 0; padding: 0; line-height: 1.5; }
-    html { background: #eaeaea; }
+    html { background: #f4f7fb; 
+      background: radial-gradient(circle, rgba(208,230,237,.2) 0%, rgba(208,230,237,0.6) 100%);
+
+    }
     body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
       font-size: 13px;
       font-style: normal;
-      padding: 20px 5%;
+      
     }
     h1, h2, h3, h4, h5, h6 { font-weight: bold; }
     ul { list-style-type: none; margin: 0 0 1em;  }
-    header { margin: 0 0 1em; }
-    #content {
-    }
-    .col1, .col2, .col3 { width: 33%; float: left; margin: 0; } .col2 { margin: 0 .5%;}
-  article { background: #fff; width: 95%; margin: 0 0 2em; padding: 2.5%;  }
-  footer { clear: both; }
+    header { padding: 20px 5%; margin: 0 0 1em; color: #666; }
+    header h1 { font-weight: bold;  }
+    header h1 a { color: rgba(108,130,137,1); text-decoration: none; text-transform: uppercase; letter-spacing: -.05em;}
+    #content, footer {     margin: 0 5%; width: 90%;   }
+    .col1, .col2 { width: 48%; float: left; margin: 0; } .col2 { margin: 0 0 0 1.5%;}
+    article { background: #fff; width: 95%; margin: 0 0 1em; padding: 2.5%;  }
+    footer { clear: both; }
   </style>
 </head>
 
@@ -33,47 +37,80 @@
   <header>
     <h1><a href="/">Mac Open Web</a></h1>
     <p>A collection of open and indie Mac, iOS, and web apps that help promote the open web.</p>
-        <p class="date">Updated 14 May 2019</p>
+    <p class="date">Updated 14 May 2019</p>
   </header>
-  <section class="col1">
-    <article>
-      <h1>RSS Readers & Discovery</h1>
-      <ul>
-        <li><a href="https://ranchero.com/netnewswire/">NetNewsWire</a> &mdash; A free and open source feed reader for macOS.</li>
-        <li><a href="https://reederapp.com/">Reeder</a> &mdash; A news reader for the Mac & iOS with support for various sync services.</li>
-        <li><a href="https://vincode.io/feed-compass/">Feed Compass</a> &mdash; A Mac app to help you find, preview, and subscribe to blogs.</li>
-      </ul>
-    </article>
-  </section>
-  <section class="col2">
-    <article>
-      <h1>Blogging</h1>
-      <ul>
-        <li><a href="https://micro.blog">Micro.blog</a> &mdash; A fast, safe, and independent community of microblogs.</li>
-        <li><a href="https://www.red-sweater.com/marsedit/">MarsEdit</a> &mbdash; Write, preview, and publish to just about anywhere from your Mac.</li>
-        <li><a href="https://joinmastodon.org">Mastodon</a> &mdash; A federated open-source alternative to social networking.</li>
-      </ul>
-    </article>
-  </section>
-  <section class="col3">
-    <article>
-      <h1>Podcast apps</h1>
-      <ul>
-        <li><a href="https://overcast.fm">Overcast</a> &mdash; A powerful yet simple podcast player for iPhone, iPad, and Apple Watch.</li>
-        <li><a href="http://www.downcastapp.com">Downcast</a> &mdash; A very cool podcast player for iOS, Mac, Apple Watch, and CarPlay.</li>
-        <li><a href="https://www.pocketcasts.com">Pocket Casts</a> &mdash; A a powerful, easy-to-use app for managing your podcast listening across Android, iOS, and the Web</li>
-        <li><a href="http://supertop.co/castro/">Castro</a> &mdash; An iOS podcast app focused on tracking a broad range of shows without getting overwhelmed.</li>
-      </ul>
-    </article>
-  </section>
+  <div id="content">
+    <section class="col1">
+      <article>
+        <h1>RSS Readers & Discovery</h1>
+        <ul>
+          <li><a href="https://vincode.io/feed-compass/">Feed Compass</a> &mdash; A Mac app to help you find, preview, and subscribe to blogs.</li>
+          <li><a href="https://www.goldenhillsoftware.com/feed-hawk/">Feed Hawk</a>Subscribe to a web site’s RSS feed from within Safari</li>
+          <li><a href="https://ranchero.com/netnewswire/">NetNewsWire</a> &mdash; A free and open source feed reader for macOS.</li>
+          <li><a href="https://reederapp.com/">Reeder</a> &mdash; A news reader for the Mac & iOS with support for various sync services.</li>
+        </ul>
+      </article>
+      <article>
+        <h1>Programming</h1>
+        <ul>
+          <li><a href="https://www.barebones.com/products/bbedit/">BBEdit</a> &mdash; A text editor that doesn&apos;t suck®</li>
+          <li><a href="https://panic.com/coda/">Coda</a> &mdash; A well-rounded Mac & iOS application for coding websites by our friends at Panic.</li>
+          <li><a href="https://www.sublimetext.com/">Sublime Text</a> &mdash; A cross-platform, highly extensible text editor</li>
+        </ul>
+      </article>
+      <article>
+        <h1>Blogging</h1>
+        <ul>
+          <li><a href="https://reinventedsoftware.com/feeder/">Feeder</a> &mdash; Create, edit and publish RSS feeds and iTunes Podcasts with Feeder.</li>
+          <li><a href="https://www.red-sweater.com/marsedit/">MarsEdit</a> &mbdash; Write, preview, and publish to just about anywhere from your Mac.</li>
+          <li><a href="https://joinmastodon.org">Mastodon</a> &mdash; A federated open-source alternative to social networking.</li>
+          <li><a href="https://micro.blog">Micro.blog</a> &mdash; A fast, safe, and independent community of microblogs.</li>
+        </ul>
+      </article>
+    </section>
+    <section class="col2">
+      <article>
+        <h1>Podcast apps</h1>
+        <ul>
+          <li><a href="http://supertop.co/castro/">Castro</a> &mdash; An iOS podcast app focused on tracking a broad range of shows without getting overwhelmed.</li>
+          <li><a href="http://www.downcastapp.com">Downcast</a> &mdash; A very cool podcast player for iOS, Mac, Apple Watch, and CarPlay.</li>
+          <li><a href="https://overcast.fm">Overcast</a> &mdash; A powerful yet simple podcast player for iPhone, iPad, and Apple Watch.</li>
+          <li><a href="https://www.pocketcasts.com">Pocket Casts</a> &mdash; A a powerful, easy-to-use app for managing your podcast listening across Android, iOS, and the Web</li>
+        </ul>
+      </article>
+      <article>
+        <h1>Read Later & Bookmarking</h1>
+        <ul>
+          <li><a href="https://www.instapaper.com/">Instapaper</a> &mdash; Save anything, read anywhere.</li>
+          <li><a href="https://pinboard.in">Pinboard</a> &mdash; A no-nonsense bookmarking site for people who value privacy and speed.</li>
+        </ul>
+      </article>
+      <article>
+        <h1>Photo Sharing</h1>
+        <ul>
+          <li><a href="https://web.500px.com">500px</a> &mdash; A photo sharing community catering to professional photographers.</li>
+          <li><a href="http://sunlit.io">Sunlit</a> &mdash; Publish photos to your own blog and discover beautiful photos from other users.</li>
+          <li><a href="https://www.flickr.com">Flickr</a> &mdash; Photo sharing & organizing, and one of the original photo-based social networks.</li>
+        </ul>
+      </article>
+      <article>
+        <h1>Design</h1>
+        <ul>
+          <li><a href="https://flyingmeat.com/acorn/">Acorn</a> &mdash; A powerful image editor that feels right at home on a Mac.</li>
+          <li><a href="https://tumult.com/hype/">Hype</a> &mdash; ‎Create stunning animated and interactive web content with Hype.</li>
+          <li><a href="https://www.pixelmator.com/pro/">Pixelmator</a> &mdash; An image editor for Mac and iOS designed to make the most powerful professional image editing tools accessible to everyone.</li>
+        </ul>
+      </article>
+    </section>
+  </div>
   <footer>
     <div class="wrap">
-    <section class="bobs">
-      <p>Thanks to <a href="http://scriptweb.org">ScriptWeb</a>, the spiritual predecessor to this.</p>
-      <p>&copy; Copyright 2001&ndash;2019 <a href="http://begoodnotbad.com">Brian Warren</a></p>
-    </section>
+      <section class="bobs">
+        <p>Thanks to <a href="http://scriptweb.org">ScriptWeb</a>, the spiritual predecessor to this.</p>
+        <p>&copy; Copyright 2001&ndash;2019 <a href="http://begoodnotbad.com">Brian Warren</a></p>
+      </section>
 
- </div>
-</footer>
+    </div>
+  </footer>
 </body>
 </html>
