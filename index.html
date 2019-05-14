@@ -11,6 +11,7 @@
 
   <style>
     * { margin: 0; padding: 0; line-height: 1.5; }
+    html { background: #eaeaea; }
     body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
       font-size: 13px;
@@ -20,6 +21,11 @@
     h1, h2, h3, h4, h5, h6 { font-weight: bold; }
     ul { list-style-type: none; margin: 0 0 1em;  }
     header { margin: 0 0 1em; }
+    #content {
+    }
+    .col1, .col2, .col3 { width: 33%; float: left; margin: 0; } .col2 { margin: 0 .5%;}
+  article { background: #fff; width: 95%; margin: 0 0 2em; padding: 2.5%;  }
+  footer { clear: both; }
   </style>
 </head>
 
@@ -27,39 +33,44 @@
   <header>
     <h1><a href="/">Mac Open Web</a></h1>
     <p>A collection of open and indie Mac, iOS, and web apps that help promote the open web.</p>
-        <p class="date">Updated 13 May 2019</p>
+        <p class="date">Updated 14 May 2019</p>
   </header>
-  <section id="content">
-
-<article>
-<h1>RSS Readers & Discovery</h1>
-<ul>
-<li><a href="https://ranchero.com/netnewswire/">NetNewsWire</a> &mdash; A free and open source feed reader for macOS.</li>
-<li><a href="https://reederapp.com/">Reeder</a> &mdash; A news reader for the Mac & iOS with support for various sync services.</li>
-<li><a href="https://vincode.io/feed-compass/">Feed Compass</a> &mdash; A Mac app to help you find, preview, and subscribe to blogs.</li>
-</ul>
-</article>
-<article>
-  <h1>Blogging</h1>
-  <ul>
-    <li><a href="https://micro.blog">Micro.blog</a> &mdash; A fast, safe, and independent community of microblogs.</li>
-    <li><a href="https://www.red-sweater.com/marsedit/">MarsEdit</a> &mbdash; Write, preview, and publish to just about anywhere from your Mac.</li>
-    <li><a href="https://joinmastodon.org">Mastodon</a> &mdash; A federated open-source alternative to social networking.</li>
-  </ul>
-</article>
-<article>
-  <h1>Podcast apps</h1>
-  <ul>
-    <li><a href="https://overcast.fm">Overcast</a> &mdash; A powerful yet simple podcast player for iPhone, iPad, and Apple Watch.</li>
-    <li><a href="http://www.downcastapp.com">Downcast</a> &mdash; A very cool podcast player for iOS, Mac, Apple Watch, and CarPlay.</li>
-    <li><a href="https://www.pocketcasts.com">Pocket Casts</a> &mdash; A a powerful, easy-to-use app for managing your podcast listening across Android, iOS, and the Web</li>
-    <li><a href="http://supertop.co/castro/">Castro</a> &mdash; An iOS podcast app focused on tracking a broad range of shows without getting overwhelmed.</li>
-  </ul>
-</article>
-  </section>  <footer>
+  <section class="col1">
+    <article>
+      <h1>RSS Readers & Discovery</h1>
+      <ul>
+        <li><a href="https://ranchero.com/netnewswire/">NetNewsWire</a> &mdash; A free and open source feed reader for macOS.</li>
+        <li><a href="https://reederapp.com/">Reeder</a> &mdash; A news reader for the Mac & iOS with support for various sync services.</li>
+        <li><a href="https://vincode.io/feed-compass/">Feed Compass</a> &mdash; A Mac app to help you find, preview, and subscribe to blogs.</li>
+      </ul>
+    </article>
+  </section>
+  <section class="col2">
+    <article>
+      <h1>Blogging</h1>
+      <ul>
+        <li><a href="https://micro.blog">Micro.blog</a> &mdash; A fast, safe, and independent community of microblogs.</li>
+        <li><a href="https://www.red-sweater.com/marsedit/">MarsEdit</a> &mbdash; Write, preview, and publish to just about anywhere from your Mac.</li>
+        <li><a href="https://joinmastodon.org">Mastodon</a> &mdash; A federated open-source alternative to social networking.</li>
+      </ul>
+    </article>
+  </section>
+  <section class="col3">
+    <article>
+      <h1>Podcast apps</h1>
+      <ul>
+        <li><a href="https://overcast.fm">Overcast</a> &mdash; A powerful yet simple podcast player for iPhone, iPad, and Apple Watch.</li>
+        <li><a href="http://www.downcastapp.com">Downcast</a> &mdash; A very cool podcast player for iOS, Mac, Apple Watch, and CarPlay.</li>
+        <li><a href="https://www.pocketcasts.com">Pocket Casts</a> &mdash; A a powerful, easy-to-use app for managing your podcast listening across Android, iOS, and the Web</li>
+        <li><a href="http://supertop.co/castro/">Castro</a> &mdash; An iOS podcast app focused on tracking a broad range of shows without getting overwhelmed.</li>
+      </ul>
+    </article>
+  </section>
+  <footer>
     <div class="wrap">
     <section class="bobs">
-      <p>&copy; Copyright 2001&ndash;2019 Brian Warren</p>
+      <p>Thanks to <a href="http://scriptweb.org">ScriptWeb</a>, the spiritual predecessor to this.</p>
+      <p>&copy; Copyright 2001&ndash;2019 <a href="http://begoodnotbad.com">Brian Warren</a></p>
     </section>
 
  </div>
