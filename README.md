@@ -1,6 +1,6 @@
 # Mac Open Web
 
-Most simply, [Mac Open Web](http://macopenweb.com) is a collection of open and indie Mac, iOS, and web apps that help promote the open web. 
+Most simply, [Mac Open Web](https://macopenweb.com) is a collection of open and indie Mac, iOS, and web apps that help promote the open web. 
 
 ## Want to contribute?
 
