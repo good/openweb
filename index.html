@@ -27,15 +27,24 @@
     ul { list-style-type: none; margin: 1em 0;  }
     li { margin-bottom: .75em; }
       li p, li h2 { margin: 0;/* border: 1px solid red; */}
-    header { padding: 20px 5%; margin: 0 0 1em; color: #666; }
+    header, footer { padding: 20px 5%; margin: 0 0 1em; color: #666; }
       header h1 { font-weight: normal;  font-size: 3em; float: left; margin: 0 .5em 0 0;}
       header h1 a { color: rgba(108,130,137,1); text-decoration: none; }
     h2 { font-size: 1.3em; line-height: .9em; display: inline-block} 
       h2 a { font-weight: normal; text-decoration: none; }
-    #content, footer {     margin: 0 5%; width: 90%;   }
+    #content {     margin: 0 5%; width: 90%;   }
     .col1, .col2 { width: 48%; float: left; margin: 0; } .col2 { margin: 0 0 0 1.5%;}
     article { background: #fff; width: 95%; margin: 0 0 1em; padding: 2.5%;  }
     footer { clear: both; }
+
+    @media screen and (max-width: 600px) {
+      .col1, .col2 { width: 100%; float: none; margin: 0; } .col2 { margin: 0;}
+      #content { width: 95%; margin: 0 2%; }
+      header, footer { padding: 20px 2%;  }
+      header h1 { float: none; margin: 0;}
+    }
+
+
   </style>
 </head>
 
@@ -137,14 +146,17 @@
         <ul>
           <li>
             <h2><a href="https://www.barebones.com/products/bbedit/">BBEdit</a></h2>
+            <em>by <a href="https://www.barebones.com">Bare Bones</a></em>
             <p>A text editor that doesn&apos;t suck®</p>
           </li>
           <li>
             <h2><a href="https://panic.com/coda/">Coda</a></h2>
+            <em>by <a href="https://panic.com/blog/">Panic</a></em>
             <p>A well-rounded Mac & iOS application for coding websites by our friends at Panic</p>
           </li>
           <li>
             <h2><a href="https://www.sublimetext.com/">Sublime Text</a></h2>
+            <em>by <a href="https://www.sublimetext.com/blog/">Sublime</a></em>
             <p>A cross-platform, highly extensible text editor</p>
           </li>
         </ul>
@@ -201,14 +213,17 @@
           <ul>
             <li>
               <h2><a href="https://web.500px.com">500px</a></h2>
+              <em>by <a href="https://iso.500px.com">500px</a></em>
               <p>A photo sharing community catering to professional photographers</p>
             </li>
             <li>
               <h2><a href="http://sunlit.io">Sunlit</a></h2>
+              <em>by <a href="https://www.manton.org">Manton Reese</a></em>
               <p>Publish photos to your own blog and discover beautiful photos from other users</p>
             </li>
             <li>
               <h2><a href="https://www.flickr.com">Flickr</a></h2>
+              <em>by <a href="https://blog.flickr.net/en">Flickr Team</a></em>
               <p>Photo sharing & organizing, and one of the original photo-based social networks</p>
             </li>
           </ul>
@@ -218,14 +233,17 @@
           <ul>
             <li>
               <h2><a href="https://flyingmeat.com/acorn/">Acorn</a></h2>
+              <em>by <a href="https://flyingmeat.com/blog/">Flying Meat</a></em>
               <p>A powerful image editor that feels right at home on a Mac</p>
             </li>
             <li>
               <h2><a href="https://tumult.com/hype/">Hype</a></h2>
+              <em>by <a href="https://blog.tumult.com">Tumult</a></em>
               <p>‎Create stunning animated and interactive web content with Hype</p>
             </li>
             <li>
               <h2><a href="https://www.pixelmator.com/pro/">Pixelmator</a></h2>
+              <em>by <a href="https://www.pixelmator.com/blog/">Pixelmator Team</a></em>
               <p>An image editor for Mac and iOS designed to make the most powerful professional image editing tools accessible to everyone</p>
             </li>
           </ul>
@@ -233,13 +251,8 @@
     </section>
   </div>
   <footer>
-    <div class="wrap">
-      <section class="bobs">
-        <p>Thanks to <a href="http://scriptweb.org">ScriptWeb</a>, the spiritual predecessor to this</p>
-        <p>&copy; Copyright 2001&ndash;2019 <a href="http://begoodnotbad.com">Brian Warren</a></p>
-      </section>
+        <p>&copy; 2019 <a href="http://begoodnotbad.com">Brian Warren</a>. Thanks to <a href="http://scriptweb.org">ScriptWeb</a>, the spiritual predecessor to this thing.</p>
 
-    </div>
   </footer>
 </body>
 </html>
