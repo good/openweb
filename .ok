@@ -1,2 +1,7 @@
-bundle exec jekyll serve "$@"
-bundle exec jekyll serve --open "$@"
+# Commands to initialize your jekyll installation
+gem install bundler jekyll #First you need to install Jekyll
+bundle install # this is also needed
+# Use one of these you like. Generated files go to the `_site/` folder
+bundle exec jekyll build "$@" #Just build the site
+bundle exec jekyll serve "$@" #Same plus run localhost webserver
+bundle exec jekyll serve --open "$@" #Idemdito and open page in default browser
