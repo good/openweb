@@ -8,7 +8,7 @@ Gosh yes, thank you so much. [Do a pull request](https://github.com/good/openweb
 
 ## Where’d this come from? 
 
-These kinds of things aren’t anything new, but the idea for this one came from a note that Brent Simmons sent out to a Slack group, and I thought “Why not?” So I picked it up and ran with it. 
+These kinds of things aren’t anything new, but the idea for this one came from a note that [Brent Simmons](https://inessential.com/) sent out to a Slack group, and I thought “Why not?” So I picked it up and ran with it. 
 
 ## Questions?
 
