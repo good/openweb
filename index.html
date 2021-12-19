@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
   <link href="https://fonts.googleapis.com/css?family=Bitter:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://i.icomoon.io/public/temp/3e6df01fb8/UntitledProject/style.css">
   <style>
     * { margin: 0; padding: 0; line-height: 1.5; }
     html { background: #f4f7fb; background: radial-gradient(circle, rgba(208,230,237,.2) 0%, rgba(208,230,237,0.6) 100%); }
@@ -48,7 +49,38 @@
       footer { color: rgba(108,130,137,1); }
       a { color: rgba(114, 168, 226, 0.9)}
     }
-  </style>
+    @font-face {
+      font-family: 'icomoon';
+      src:  url('ico/fonts/icomoon.eot?ttnhzl');
+      src:  url('ico/fonts/icomoon.eot?ttnhzl#iefix') format('embedded-opentype'),
+        url('ico/fonts/icomoon.ttf?ttnhzl') format('truetype'),
+        url('ico/fonts/icomoon.woff?ttnhzl') format('woff'),
+        url('ico/fonts/icomoon.svg?ttnhzl#icomoon') format('svg');
+      font-weight: normal;
+      font-style: normal;
+      font-display: block;
+    }
+
+    [class^="icon-"], [class*=" icon-"], .mac, .ios {
+      /* use !important to prevent issues with browser extensions that change fonts */
+      font-family: 'icomoon' !important;
+      speak: never;
+      font-style: normal;
+      font-weight: normal;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1;
+      opacity: .77;
+
+      /* Better Font Rendering =========== */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .mac:before { content: "\e956"; }  
+    .ios:before { content: "\e958"; }  
+
+    </style>
 </head>
 
 <body id="home">
@@ -69,72 +101,72 @@
           </li>
           <li>
             <h2><a href="https://vincode.io/feed-compass/">Feed Compass</a></h2>
-            <em>by <a href="https://vincode.io/blog/">Maurice Parker</a></em>
+            <em>by <a href="https://vincode.io/blog/">Maurice Parker</a></em>  <span class="mac"></span>
             <p>A Mac app to help you find, preview, and subscribe to blogs.</p>
           </li>
           <li>
-            <h2><a href="https://www.goldenhillsoftware.com/feed-hawk/">Feed Hawk</a></h2>
-            <em>by <a href="https://www.goldenhillsoftware.com/blog/"> Golden Hill Software</a></em>
+            <h2><a href="https://www.goldenhillsoftware.com/feed-hawk/">Feed Hawk</a></h2> 
+            <em>by <a href="https://www.goldenhillsoftware.com/blog/"> Golden Hill Software</a></em> <span class="ios"></span>
             <p>Subscribe to a website’s RSS feed from within Safari.</p>
           </li>
           <li>
             <h2><a href="http://cocoacake.net/apps/fiery/">Fiery Feeds</a></h2>
-            <em>by <a href="http://blog.cocoacake.net">CocoaCake</a></em>
+            <em>by <a href="http://blog.cocoacake.net">CocoaCake</a></em> <span class="ios"></span>
             <p>A feature-loaded reader for iOS.</p>
           </li>
           <li>
             <h2><a href="https://goodlinks.app">GoodLinks</a></h2>
-            <em>by <a href="https://macbirdie.net">Ngoc Luu</a></em>
+            <em>by <a href="https://macbirdie.net">Ngoc Luu</a></em>  <span class="mac"></span> <span class="ios"></span>
             <p>A powerful bookmarking app with a sleek reading experience. No account required.</p>
           </li>
           <li>
             <h2><a href="https://itunes.apple.com/us/app/headlines-rss/id904059445?mt=8">Headlines</a></h2>
-            <em>by <a href="https://macbirdie.net">Maciej Rutkowski</a></em>
+            <em>by <a href="https://macbirdie.net">Maciej Rutkowski</a></em> <span class="ios"></span>
             <p>A simple and private reader for iOS with feed sync <em>just around the corner</em>.</p>
           </li>
           <li>
             <h2><a href="https://lireapp.com">lire</a></h2>
-            <em>by Kunal Sood</em>
+            <em>by Kunal Sood</em> <span class="mac"></span> <span class="ios"></span>
             <p>A multi-service RSS reader with a built-in browser.</p>
           </li>          
           <li>
             <h2><a href="https://ranchero.com/netnewswire/">NetNewsWire</a></h2>
-            <em>by <a href="https://inessential.com">Brent Simmons</a></em>
+            <em>by <a href="https://inessential.com">Brent Simmons</a></em> <span class="mac"></span> <span class="ios"></span>
             <p>A free and open source feed reader for macOS.</p>
           </li>
           <li>
             <h2><a href="https://newsblur.com">Newsblur</a></h2>
-            <em>by <a href="http://twitter.com/samuelclay">Samuel Clay</a></em>
+            <em>by <a href="http://twitter.com/samuelclay">Samuel Clay</a></em> <span class="mac"></span> <span class="ios"></span>
             <p>NewsBlur is a personal news reader that brings people together to talk about the world.</p>
           </li>
           <li>
             <h2><a href="https://betamagic.nl/products/newsexplorer.html">News Explorer</a></h2>
-            <em>by <a href="https://betamagic.nl/blog.html">Betamagic</a></em>
+            <em>by <a href="https://betamagic.nl/blog.html">Betamagic</a></em> <span class="mac"></span> <span class="ios"></span>
             <p>A news reader with syncing, themes, and support for Twitter and JSON feeds.</p>
           </li>
           <li>
             <h2><a href="https://newswaveapp.com">NewsWave</a></h2>
-            <em>by <a href="https://bluelemonbits.com">Marc Maset</a></em>
+            <em>by <a href="https://bluelemonbits.com">Marc Maset</a></em> <span class="mac"></span> <span class="ios"></span>
             <p>A thoughtful, single timeline style newsreader for iOS.</p>
           </li>
           <li>
             <h2><a href="https://readkitapp.com/">ReadKit</a></h2>
-            <em>by Balazs Varkonyi</em>
+            <em>by Balazs Varkonyi</em> <span class="mac"></span> <span class="ios"></span>
             <p>A Mac reading app that collects from multiple sources: Instapaper; Pinboard; Pocket; and RSS with support for various sync services.</p>
           </li>
           <li>
             <h2><a href="https://reederapp.com/">Reeder</a></h2>
-            <em>by Silvio Rizzi</em>
+            <em>by Silvio Rizzi</em> <span class="mac"></span> <span class="ios"></span>
             <p>A news reader for the Mac and iOS with support for various sync services.</p>
           </li>
           <li>
             <h2><a href="https://www.goldenhillsoftware.com/unread/">Unread</a></h2>
-            <em>by <a href="https://www.goldenhillsoftware.com/blog/"> Golden Hill Software</a></em>
+            <em>by <a href="https://www.goldenhillsoftware.com/blog/"> Golden Hill Software</a></em>  <span class="ios"></span>
             <p>A beautiful RSS reader for iOS that supports syncing.</p>
           </li>
           <li>
             <h2><a href="https://www.vienna-rss.com/">ViennaRSS</a></h2>
-            <em>by <a href="https://www.vienna-rss.com/blog">The ViennaRSS project</a></em>
+            <em>by <a href="https://www.vienna-rss.com/blog">The ViennaRSS project</a></em> <span class="mac"></span> 
             <p>An open source reader that&rsquo;s been around for quite some time and has support for plugins.</p>
           </li>
         </ul>
@@ -145,117 +177,117 @@
         <ul>
           <li>
             <h2><a href="https://www.barebones.com/products/bbedit/">BBEdit</a></h2>
-            <em>by <a href="https://www.barebones.com">Bare Bones</a></em>
+            <em>by <a href="https://www.barebones.com">Bare Bones</a></em> <span class="mac"></span> 
             <p>A text editor that doesn’t suck®</p>
           </li>
           <li>
             <h2><a href="https://panic.com/coda/">Coda</a></h2>
-            <em>by <a href="https://panic.com/blog/">Panic</a></em>
+            <em>by <a href="https://panic.com/blog/">Panic</a></em> <span class="ios"></span> 
             <p>A well-rounded iOS application for coding websites by our friends at Panic.</p>
           </li>
           <li>
             <h2><a href="https://codekitapp.com">CodeKit</a></h2>
-            <em>by <a href="https://codekitapp.com/updates/">Bryan Jones</a></em>
+            <em>by <a href="https://codekitapp.com/updates/">Bryan Jones</a></em> <span class="mac"></span> 
             <p>Dozens of modern web development tools in one easy-to-use app. Get to work without grunting, gulping, or 47 trips to Stack Overflow.</p>
           </li>
           <li>
             <h2><a href="https://coteditor.com">CotEditor</a></h2>
-            <em>by <a href="https://github.com/coteditor/">CotEditor Project</a></em>
+            <em>by <a href="https://github.com/coteditor/">CotEditor Project</a></em> <span class="mac"></span> 
             <p>A light-weight, neat, yet powerful text editor.</p>
           </li>
           <li>
             <h2><a href="https://cyberduck.io">Cyberduck</a></h2>
-            <em>by <a href="https://iterate.ch">iterate GmbH</a></em>
+            <em>by <a href="https://iterate.ch">iterate GmbH</a></em> <span class="mac"></span> 
           <p>An open file transfer and cloud storage browser for the Mac since 2003.</p>
           </li>
           <li>
             <h2><a href="https://git-fork.com">Fork</a></h2>
-            <em>by <a href="https://git-fork.com/about">Danil Pristupov</a></em>
+            <em>by <a href="https://git-fork.com/about">Danil Pristupov</a></em> <span class="mac"></span> 
             <p>A fast and friendly git client for Mac and Windows.</p>
           </li>
           <li>
             <h2><a href="https://binarynights.com">Forklift</a></h2>
-            <em>by Binary Nights</em>
+            <em>by Binary Nights</em> <span class="mac"></span> 
             <p>Powerful, fast FTP client for the Mac.</p>
           </li>
           <li>
             <h2><a href="https://gitup.co">GitUp</a></h2>
-            <em>by GitUp</em>
+            <em>by GitUp</em> <span class="mac"></span> 
             <p>A powerful GUI front-end interface for your git repos.</p>
           </li>
           <li>
             <h2><a href="https://glitch.com/">Glitch</a></h2>
-            <em>by <a href="https://glitch.com/">Glitch</a></em>
+            <em>by <a href="https://glitch.com/">Glitch</a></em> 
             <p>Glitch is the friendly community where everyone can discover and create the best stuff on the web.</p>
           </li>
           <li>
             <h2><a href="https://iterm2.com">iTerm</a></h2>
-            <em>by George Nachman</em>
+            <em>by George Nachman</em> <span class="mac"></span> 
             <p>iTerm is a powerful replacement for the default Terminal on macOS.</p>
           </li>
           <li>
             <h2><a href="https://www.mamp.info/en/">MAMP</a></h2>
-            <em>by MAMP GmbH</em>
+            <em>by MAMP GmbH</em> <span class="mac"></span> 
             <p>Free, local server environment that can be installed with just a few clicks.</p>
           </li>
           <li>
             <h2><a href="https://nova.app">Nova</a></h2>
-            <em>by <a href="https://panic.com/blog/">Panic</a></em>
+            <em>by <a href="https://panic.com/blog/">Panic</a></em> <span class="mac"></span> 
             <p>Powerful and beautiful, native code editor for macOS.</p>
           </li>
           <li>
             <h2><a href="https://github.com/doekman/osagitfilter/">osagitfilter</a></h2>
-            <em>by Doekman</em>
+            <em>by Doekman</em> <span class="mac"></span> 
             <p>Filter to put OSA languages (AppleScript, JavaScript) into git, as if they where plain text files.</p>
           </li>
           <li>
             <h2><a href="https://postgresapp.com">Postgres.app</a></h2>
-            <em>by Jakob Egger and Chris Pastl</em>
+            <em>by Jakob Egger and Chris Pastl</em> <span class="mac"></span> 
             <p>The easiest way to get started with PostgreSQL on the Mac</p>
           </li>
           <li>
             <h2><a href="https://eggerapps.at/postico/">Postico</a></h2>
-            <em>by <a href="https://eggerapps.at">Egger Apps</a></em>
+            <em>by <a href="https://eggerapps.at">Egger Apps</a></em> <span class="mac"></span> 
             <p>A Modern PostgreSQL Client for the Mac.</p>
           </li>
           <li>
             <h2><a href="https://panic.com/prompt/">Prompt</a></h2>
-            <em>by <a href="https://panic.com/blog/">Panic</a></em>
+            <em>by <a href="https://panic.com/blog/">Panic</a></em> <span class="ios"></span> 
             <p>An elegant and powerful SSH client for iOS.</p>
           </li>
           <li>
             <h2><a href="https://latenightsw.com">Script Debugger</a></h2>
-            <em>by <a href="https://latenightsw.com">Late Night Software</a></em>
+            <em>by <a href="https://latenightsw.com">Late Night Software</a></em> <span class="mac"></span> 
             <p>The full power of applescript automation. Experience applescript made easy.</p>
           </li>
           <li>
             <h2><a href="https://www.sequelpro.com">Sequel Pro</a></h2>
-            <em>by <a href="https://sequelpro.com/developers">Sequel Pro Devs</a></em>
+            <em>by <a href="https://sequelpro.com/developers">Sequel Pro Devs</a></em> <span class="mac"></span> 
             <p>A MySQL/MariaDB management GUI with just the greatest icon in the world.</p>
           </li>
           <li>
             <h2><a href="https://subethaedit.net">SubEthaEdit</a></h2>
-            <em>by <a href="https://github.com/subethaedit">Dominik Wagner & Contributors</a></em>
+            <em>by <a href="https://github.com/subethaedit">Dominik Wagner & Contributors</a></em> <span class="mac"></span> 
             <p>General purpose plain text editor for macOS. Widely known for its live collaboration feature.</p>
           </li>
           <li>
             <h2><a href="https://www.sublimetext.com/">Sublime Text</a></h2>
-            <em>by <a href="https://www.sublimetext.com/blog/">Sublime</a></em>
+            <em>by <a href="https://www.sublimetext.com/blog/">Sublime</a></em> <span class="mac"></span> 
             <p>A cross-platform, highly extensible text editor</p>
           </li>
           <li>
             <h2><a href="https://github.com/jakob/TableTool">Table Tool</a></h2>
-            <em>by Sandro Peham, Andreas Aigner, and Jakob Egger</em>
+            <em>by Sandro Peham, Andreas Aigner, and Jakob Egger</em> <span class="mac"></span> 
             <p>A simple CSV editor for the Mac</p>
           </li>
           <li>
             <h2><a href="https://www.macromates.com/">TextMate</a></h2>
-            <em>by <a href="https://sigpipe.macromates.com">Macromates</a></em>
+            <em>by <a href="https://sigpipe.macromates.com">Macromates</a></em> <span class="mac"></span> 
             <p>Powerful and customizable text editor with support for a huge list of programming languages and developed as open source.</p>
           </li>
           <li>
             <h2><a href="https://panic.com/transmit/">Transmit</a></h2>
-            <em>by <a href="https://panic.com/blog/">Panic</a></em>
+            <em>by <a href="https://panic.com/blog/">Panic</a></em> <span class="mac"></span>
             <p>Upload, download, and manage files on tons of servers with an easy, familiar, and powerful UI.</p>
           </li>
         </ul>
@@ -265,43 +297,43 @@
         <ul>
           <li>
             <h2><a href="https://flyingmeat.com/acorn/">Acorn</a></h2>
-            <em>by <a href="https://flyingmeat.com/blog/">Flying Meat</a></em>
+            <em>by <a href="https://flyingmeat.com/blog/">Flying Meat</a></em> <span class="mac"></span> 
             <p>A powerful image editor that feels right at home on a Mac</p>
           </li>
           <li>
             <h2><a href="https://affinity.serif.com/en-us/designer/">Affinity Designer</a>, <a href="https://affinity.serif.com/en-us/photo/">Photo</a>,  &amp; <a href="https://affinity.serif.com/en-us/publisher/">Publisher</a></h2>
-            <em>by <a href="https://affinity.serif.com/en-us/">Serif</a></em>
+            <em>by <a href="https://affinity.serif.com/en-us/">Serif</a></em> <span class="mac"></span>  <span class="ios"></span> 
             <p>Design and photo editing software for Mac and iPad</p>
           </li>
           <li>
             <h2><a href="https://amadine.com">Amadine</a></h2>
-            <em>by <a href="https://www.belightsoft.com">BeLight Software</a></em>
+            <em>by <a href="https://www.belightsoft.com">BeLight Software</a></em> <span class="mac"></span>  <span class="ios"></span> 
             <p>A vector drawing app for illustrations, mockups, UI, type, and web design.</p>
           </li>
           <li>
             <h2><a href="https://www.lemkesoft.de/en/products/graphicconverter/">GraphicConverter</a></h2>
-            <em>by <a href="https://www.lemkesoft.de/">Lemke Software</a></em>
+            <em>by <a href="https://www.lemkesoft.de/">Lemke Software</a></em> <span class="mac"></span> 
             <p>The original Swiss army knife of photo editing on the Mac.</p>
           </li>
           <li>
             <h2><a href="https://tumult.com/hype/">Hype</a></h2>
-            <em>by <a href="https://blog.tumult.com">Tumult</a></em>
+            <em>by <a href="https://blog.tumult.com">Tumult</a></em>  <span class="mac"></span> 
             <p>Create stunning animated and interactive web content with Hype</p>
           </li>
           
           <li>
             <h2><a href="https://www.maildesigner365.com/">Mail Designer 365</a></h2>
-            <em>by <a href="https://tower-one.net/">TOWER ONE GmbH</a></em>
+            <em>by <a href="https://tower-one.net/">TOWER ONE GmbH</a></em> <span class="mac"></span> 
             <p>A newsletter design tool that lets anyone design an email and send it via the platform of their choice, or via their own email server.</p>
           </li>
           <li>
             <h2><a href="https://www.pixelmator.com/pro/">Pixelmator</a></h2>
-            <em>by <a href="https://www.pixelmator.com/blog/">Pixelmator Team</a></em>
+            <em>by <a href="https://www.pixelmator.com/blog/">Pixelmator Team</a></em> <span class="mac"></span>  <span class="ios"></span> 
             <p>An image editor for Mac and iOS designed to make the most powerful professional image editing tools accessible to everyone</p>
           </li>
           <li>           
             <h2><a href="https://www.realmacsoftware.com/rapidweaver/">RapidWeaver</a></h2>
-            <em>by <a href="https://blog.realmacsoftware.com">Realmac Software</a></em>
+            <em>by <a href="https://blog.realmacsoftware.com">Realmac Software</a></em> <span class="mac"></span> 
             <p>A powerful and easy to use web design app.</p>
           </li>
         </ul>
@@ -314,22 +346,22 @@
         <ul>
           <li>
             <h2><a href="https://reinventedsoftware.com/feeder/">Feeder</a></h2>
-            <em>by <a href="https://reinventedsoftware.com/blog/">Reinvented Software</a></em>
+            <em>by <a href="https://reinventedsoftware.com/blog/">Reinvented Software</a></em> <span class="mac"></span> 
             <p>Create, edit, and publish RSS feeds and iTunes Podcasts with Feeder</p>
           </li>
           <li>
             <h2><a href="https://github.com/hartlco/Icro">Icro</a></h2>
-            <em>by <a href="https://hartl.co">Martin Hartl</a></em>
+            <em>by <a href="https://hartl.co">Martin Hartl</a></em> <span class="ios"></span> 
             <p>A free and open source Micro.blog client for iOS.</p>
           </li>
           <li>
             <h2><a href="https://www.red-sweater.com/marsedit/">MarsEdit</a></h2>
-            <em>by <a href="https://red-sweater.com/blog/">Red Sweater</a></em>
+            <em>by <a href="https://red-sweater.com/blog/">Red Sweater</a></em> <span class="mac"></span> 
             <p>Write, preview, and publish to just about anywhere from your Mac</p>
           </li>
           <li>
             <h2><a href="https://itunes.apple.com/us/app/mast/id1437429129">Mast</a></h2>
-            <em>by <a href="https://www.thebluebird.app">Shihab Mehboob</a></em>
+            <em>by <a href="https://www.thebluebird.app">Shihab Mehboob</a></em> <span class="ios"></span> 
             <p>Mastodon client for iOS with lots of features and customizability.</p>
           </li>
           <li>
@@ -344,17 +376,17 @@
           </li>
           <li>
             <h2><a href="https://skeletron.app/">Skeletron</a></h2>
-            <em>by <a href="https://hanonno.com">Hanno ten Hoor</a></em>
+            <em>by <a href="https://hanonno.com">Hanno ten Hoor</a></em> <span class="mac"></span> 
             <p>A native app to make writing and publishing your Hugo site super simple.</p>
           </li>
           <li>
             <h2><a href="http://sunlit.io">Sunlit</a></h2>
-            <em>by <a href="https://micro.blog">Micro.blog</a></em>
+            <em>by <a href="https://micro.blog">Micro.blog</a></em> <span class="ios"></span> 
             <p>Publish photos to your own blog and discover beautiful photos from other users</p>
           </li>
           <li>
             <h2><a href="https://mastodon.social/@tootapp">Toot!</a></h2>
-            <em>by <a href="https://mastodon.social/@WAHa_06x36">Dag Ågren</a></em>
+            <em>by <a href="https://mastodon.social/@WAHa_06x36">Dag Ågren</a></em>  <span class="ios"></span> 
             <p>A Mastodon client for iOS. Multi-instance, multi-account, fast, comfortable, and above all, a lot of fun!</p>
           </li>
         </ul>
@@ -364,27 +396,27 @@
         <ul>
           <li>
             <h2><a href="https://bear.app">Bear</a></h2>
-            <em>by <a href="https://blog.bear.app">Shiny Frog</a></em>
+            <em>by <a href="https://blog.bear.app">Shiny Frog</a></em> <span class="mac"></span>  <span class="ios"></span> 
             <p>A beautiful, flexible writing app for crafting notes and prose</p>
           </li>
           <li>
             <h2><a href="https://bywordapp.com/">Byword</a></h2>
-            <em>by Metaclassy</em>
-            <p>Markdown app for writing in plain text efficiently. Available for Mac, iPhone, and iPad</p>
+            <em>by Metaclassy</em> <span class="mac"></span>  <span class="ios"></span> 
+            <p>Markdown app for writing in plain text efficiently. Available for Mac, iPhone, and iPad.</p>
           </li>
           <li>
             <h2><a href="https://citationsy.com">Citationsy</a></h2>
-            <em>by <a href="https://cenk.co">Cenk Özbakır</a></em>
+            <em>by <a href="https://cenk.co">Cenk Özbakır</a></em> 
             <p>Citationsy is a reference collection and bibliography creation tool for people who value simplicity, privacy, and speed.</p>
           </li>
           <li>
             <h2><a href="https://fsnot.es">FSNotes</a></h2>
-            <em>by <a href="https://twitter.com/fsnotesapp">Oleksandr Hlushchenko</a></em>
+            <em>by <a href="https://twitter.com/fsnotesapp">Oleksandr Hlushchenko</a></em> <span class="mac"></span>  <span class="ios"></span> 
             <p>Open-source robust notes manager that supports markdown. For Mac & iOS.</p>
           </li>
           <li>
             <h2><a href="https://ia.net/writer">iA Writer</a></h2>
-            <em>by <a href="https://ia.net/topics">iA</a></em>
+            <em>by <a href="https://ia.net/topics">iA</a></em> <span class="mac"></span>  <span class="ios"></span> 
             <p>Markdown writing app that removes distractions, giving you a calm, focused writing space</p>
           </li>
           <li>
@@ -394,22 +426,27 @@
           </li>
           <li>
             <h2><a href="https://brettterpstra.com/projects/nvalt/">nvALT</a></h2>
-            <em>by <a href="https://brettterpstra.com">Brett Terpstra</a></em>
+            <em>by <a href="https://brettterpstra.com">Brett Terpstra</a></em> <span class="mac"></span> 
             <p>A fork of the original Notational Velocity with additional features and interface modifications.</p>
           </li>
           <li>
             <h2><a href="https://www.literatureandlatte.com/scrivener/overview">Scrivener</a></h2>
-            <em>by Literature & Latte</em>
+            <em>by Literature & Latte</em> <span class="mac"></span>  <span class="ios"></span> 
             <p>A go-to app for writers of all kinds.</p>
           </li>
           <li>
+            <h2><a href="https://obsidian.md">Obsidian</a></h2>
+            <em>by Obsdian</em> <span class="mac"></span>  <span class="ios"></span> 
+            <p>Obsidian is a powerful knowledge base on top of a local folder of plain text Markdown files.</p>
+          </li>
+          <li>
             <h2><a href="https://tot.rocks/">Tot</a></h2>
-            <em>by <a href="http://iconfactory.com/">Iconfactory</a></em>
+            <em>by <a href="http://iconfactory.com/">Iconfactory</a></em> <span class="mac"></span>  <span class="ios"></span> 
             <p>An elegant, simple way to collect and edit text on your Mac, iPhone, and iPad.</p>
           </li>
           <li>
             <h2><a href="https://ulysses.app">Ulysses</a></h2>
-            <em>by <a href="https://ulysses.app/blog/">Ulysses GmbH & Co</a></em>
+            <em>by <a href="https://ulysses.app/blog/">Ulysses GmbH & Co</a></em> <span class="mac"></span>  <span class="ios"></span> 
             <p>A pleasant, focused writing experience with flexible exporting options</p>
           </li>
         </ul>
@@ -419,42 +456,42 @@
           <ul>
             <li>
               <h2><a href="http://castamatic.com">Castamatic</a></h2>
-              <em>by <a href="https://castamatic.com/blog/">Gunp Media Productions</a></em>
+              <em>by <a href="https://castamatic.com/blog/">Gunp Media Productions</a></em> <span class="ios"></span> 
               <p>A podcast app for iOS with advanced audio features.</p>
             </li>
             <li>
               <h2><a href="http://supertop.co/castro/">Castro</a></h2>
-              <em>by <a href="https://blog.supertop.co">Supertop</a></em>
+              <em>by <a href="https://blog.supertop.co">Supertop</a></em> <span class="ios"></span>
               <p>An iOS podcast app focused on tracking a broad range of shows without getting overwhelmed</p>
             </li>
             <li>
               <h2><a href="http://www.downcastapp.com">Downcast</a></h2>
-              <em>by <a href="http://www.downcastapp.com/blog.html">George Cox</a></em>
+              <em>by <a href="http://www.downcastapp.com/blog.html">George Cox</a></em> <span class="mac"></span> <span class="ios"></span>
               <p>A very cool podcast player for iOS, Mac, Apple Watch, and CarPlay</p>
             </li>
             <li>
               <h2><a href="https://overcast.fm/forecast">Forecast</a></h2>
-              <em>by <a href="https://marco.org">Marco Arment</a></em>
+              <em>by <a href="https://marco.org">Marco Arment</a></em> <span class="mac"></span>
               <p>Convert your podcast to an MP3 with chapter markers and custom images</p>
             </li>
             <li>
               <h2><a href="https://overcast.fm">Overcast</a></h2>
-              <em>by <a href="https://marco.org">Marco Arment</a></em>
+              <em>by <a href="https://marco.org">Marco Arment</a></em> <span class="ios"></span>
               <p>A powerful yet simple podcast player for iPhone, iPad, and Apple Watch</p>
             </li>
             <li>
               <h2><a href="https://www.pocketcasts.com">Pocket Casts</a></h2>
-              <em>by <a href="https://blog.pocketcasts.com">Podcast Media LLC</a></em>
+              <em>by <a href="https://blog.pocketcasts.com">Podcast Media LLC</a></em> <span class="ios"></span>
               <p>A powerful, easy-to-use app for managing your podcast listening across Android, iOS, and the Web</p>
             </li>
             <li>
               <h2><a href="https://chaptersapp.com/">Podcast Chapters</a></h2>
-              <em>by <a href="https://www.bjoreman.com">Fredrik Björeman</a></em>
+              <em>by <a href="https://www.bjoreman.com">Fredrik Björeman</a></em> <span class="mac"></span>
               <p>A Mac app to add, view, and edit chapters and other ID3 metadata</p>
             </li>
             <li>
               <h2><a href="https://help.micro.blog/2018/microcasting/">Wavelength</a></h2>
-              <em>by <a href="https://micro.blog">Micro.blog</a></em>
+              <em>by <a href="https://micro.blog">Micro.blog</a></em>  <span class="ios"></span>
               <p>Record, edit, and publish a microcast (short-form podcast) to your microblog</p>
             </li>
           </ul>
@@ -464,17 +501,17 @@
           <ul>
             <li>
               <h2><a href="https://goodlinks.app">GoodLinks</a></h2>
-              <em>by Ngoc Luu</em>
+              <em>by Ngoc Luu</em> <span class="mac"></span> <span class="ios"></span>
               <p>Save links effortlessly. View them later, from anywhere.</p>
             </li>
             <li>
               <h2><a href="https://www.instapaper.com/">Instapaper</a></h2>
-              <em>by <a href="https://blog.instapaper.com/">Instant Paper</a></em>
+              <em>by <a href="https://blog.instapaper.com/">Instant Paper</a></em> <span class="ios"></span>
               <p>Save anything, read anywhere</p>
             </li>
             <li>
               <h2><a href="https://www.indiepaper.io">Indiepaper</a></h2>
-              <em>by <a href="https://cleverdevil.io">Jonathan LaCour</a></em>
+              <em>by <a href="https://cleverdevil.io">Jonathan LaCour</a></em> <span class="mac"></span> <span class="ios"></span>
               <p>A read-later service built for the open web</p>
             </li>
             <li>
@@ -489,12 +526,12 @@
             </li>
             <li>
               <h2><a href="https://getpocket.com">Pocket</a></h2>
-              <em>by <a href="https://blog.getpocket.com">Read It Later</a></em>
+              <em>by <a href="https://blog.getpocket.com">Read It Later</a></em> <span class="mac"></span> <span class="ios"></span>
               <p>Save articles, videos, and stories from any publication, page, or app.</p>
             </li>
             <li>
               <h2><a href="https://unmark.it">Unmark</a></h2>
-              <em>by <a href="https://github.com/cdevroe/unmark">Colin Devroe & Kyle Ruane</a></em>
+              <em>by <a href="https://github.com/cdevroe/unmark">Colin Devroe & Kyle Ruane</a></em>  <span class="mac"></span>
               <p>An open source to do app for bookmarks.</p>
             </li>
           </ul>
@@ -504,42 +541,42 @@
           <ul>
             <li>
               <h2><a href="https://www.alfredapp.com/">Alfred</a></h2>
-              <em>by <a href="https://www.alfredapp.com/blog/">Running with Crayons</a></em>
+              <em>by <a href="https://www.alfredapp.com/blog/">Running with Crayons</a></em> <span class="mac"></span>
               <p>Search your Mac and the web, and be more productive with custom actions to control your Mac.</p>
             </li>
             <li>
               <h2><a href="https://red-sweater.com/fastscripts/">FastScripts</a></h2>
-              <em>by <a href="https://red-sweater.com/blog/">Red Sweater</a></em>
+              <em>by <a href="https://red-sweater.com/blog/">Red Sweater</a></em> <span class="mac"></span>
               <p>Instant access to your scripts, by keyboard shortcut or menubar.</p>
             </li>
             <li>
               <h2><a href="https://www.noodlesoft.com/">Hazel</a></h2>
-              <em>by <a href="https://www.noodlesoft.com/blog/">Noodlesoft</a></em>
+              <em>by <a href="https://www.noodlesoft.com/blog/">Noodlesoft</a></em> <span class="mac"></span>
               <p>Automated organization for your Mac.</p>
             </li>
             <li>
               <h2><a href="https://www.keyboardmaestro.com/main/">Keyboard Maestro</a></h2>
-              <em>by <a href="https://www.stairways.com/blog/">Stairways Software</a></em>
+              <em>by <a href="https://www.stairways.com/blog/">Stairways Software</a></em> <span class="mac"></span>
               <p>Automate applications or websites, text or images, simple or complex, on command or scheduled. You can automate virtually anything.</p>
             </li>
             <li>
               <h2><a href="https://www.obdev.at/products/launchbar/index.html">LaunchBar</a></h2>
-              <em>by <a href="https://blog.obdev.at/">Objective Development Software</a></em>
+              <em>by <a href="https://blog.obdev.at/">Objective Development Software</a></em> <span class="mac"></span>
               <p>Start with a single keyboard shortcut to access and control every aspect of your digital life.</p>
             </li>
             <li>
               <h2><a href="https://freron.com">MailMate</a></h2>
-              <em>by <a href="https://freron.com/about/">Benny Kjær Nielsen</a></em>
+              <em>by <a href="https://freron.com/about/">Benny Kjær Nielsen</a></em> <span class="mac"></span>
               <p>An advanced IMAP client for the Mac, with Markdown editing, keyboard navigation, encryption, and robust search.</p>
             </li>
             <li>
               <h2><a href="https://pilotmoon.com/popclip/">PopClip</a></h2>
-              <em>by <a href="https://pilotmoon.com/">Pilotmoon Software</a></em>
+              <em>by <a href="https://pilotmoon.com/">Pilotmoon Software</a></em>v
               <p>Perform quick actions with text snippets on the Mac. Extensible to interact with a bunch of web and native apps.</p>
             </li>
             <li>
               <h2><a href="https://www.postbox-inc.com">Postbox</a></h2>
-              <em>by <a href="https://www.postbox-inc.com/blog">Postbox</a></em>
+              <em>by <a href="https://www.postbox-inc.com/blog">Postbox</a></em> <span class="mac"></span>
               <p>Simple, powerful, and transparent email app.</p>
             </li>
           </ul>
