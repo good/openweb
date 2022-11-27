@@ -48,15 +48,16 @@
       footer { color: rgba(108,130,137,1); }
       a { color: rgba(114, 168, 226, 0.9)}
     }
+
     @font-face {
       font-family: 'icomoon';
-      src:  url('f/icomoon.woff?ttnhzl') format('woff');
+      src: url('f/icomoon.woff?2fmba1') format('woff');
       font-weight: normal;
       font-style: normal;
       font-display: block;
     }
 
-    [class^="icon-"], [class*=" icon-"], .mac, .ios {
+    [class^="icon-"], [class*=" icon-"], .mac, .ios, .ipad {
       /* use !important to prevent issues with browser extensions that change fonts */
       font-family: 'icomoon' !important;
       speak: never;
@@ -66,16 +67,22 @@
       text-transform: none;
       line-height: 1;
       opacity: .77;
-
+    
       /* Better Font Rendering =========== */
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
     }
 
-    .mac:before { content: "\e956"; }
-    .ios:before { content: "\e958"; }
-    .ipad:before { content: "\e95A"; }
-
+    .mac:before {
+      content: "\e956";
+    }
+    .ios:before {
+      content: "\e958";
+    }
+    .ipad:before {
+      content: "\e95a";
+    }
+    
     </style>
 </head>
 
@@ -92,7 +99,7 @@
         <ul>
           <li>
             <h2><a href="https://bubblin.io/">Bubblin Superbooks</a></h2>
-            <em>by <a href="https://twitter.com/marvindanig/">Marvin Danig</a> and <a href="https://twitter.com/sonicaaaaaa/">Sonica Arora</a></em><span class="ipad"></span>
+            <em>by <a href="https://twitter.com/marvindanig/">Marvin Danig</a> and <a href="https://twitter.com/sonicaaaaaa/">Sonica Arora</a></em> <span class="ipad"></span>
             <p>A responsive book reader for the web. Offline first and iPad first.</p>
           </li>
           <li>
